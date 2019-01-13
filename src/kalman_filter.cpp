@@ -45,7 +45,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   TODO:
     * update the state by using Extended Kalman Filter equations
   */
-	if (x_[0] == 0 || x_[1] == 0)
+	if (x_(0) == 0 || x_(1) == 0)
 		return;
 
 	float ro = sqrt(x_(0)*x_(0) + x_(1)*x_(1));
