@@ -1,3 +1,8 @@
+[//]: # (Image References)
+
+[image1]: ./images/rmse_dataset1.jpg "RMSE for first dataset"
+[image2]: ./images/rmse_dataset2.jpg "RMSE for second dataset"
+
 # Extended Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
@@ -37,6 +42,12 @@ OUTPUT: values provided by the c++ program to the simulator
 ["rmse_y"]
 ["rmse_vx"]
 ["rmse_vy"]
+
+The RMSE for the first dataset can be seen in the figure below:
+![alt text][image1]
+
+The RMSE for the second dataset can be seen in the figure below:
+![alt text][image2]
 
 ---
 
